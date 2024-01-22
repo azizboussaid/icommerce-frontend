@@ -71,7 +71,7 @@ const router = createBrowserRouter(
     </Route>
   )
 );
-axios.defaults.baseURL= "https://proshop-api-vq5l.onrender.com"
+axios.defaults.baseURL= "https://proshop-api-vq5l.onrender.com/api"
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
