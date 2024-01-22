@@ -9,7 +9,7 @@ import { logout } from './authSlice'; // Import the logout action
 // https://redux-toolkit.js.org/rtk-query/usage/customizing-queries#customizing-queries-with-basequery
 
 const baseQuery = fetchBaseQuery({
-  baseUrl: "https://proshop-uit0.onrender.com",
+  baseUrl: "https://proshop-api-vq5l.onrender.com",
 });
 
 async function baseQueryWithAuth(args, api, extra) {
